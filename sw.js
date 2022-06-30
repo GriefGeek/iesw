@@ -2,10 +2,6 @@ importScripts(
     "https://cdn.jsdelivr.net/npm/comlink@4.3.1/dist/umd/comlink.min.js",
 );
 
-importScripts(
-    "https://cdn.jsdelivr.net/npm/comlink@4.3.1/dist/umd/comlink.min.js",
-);
-
 
 /**
  * lodash (Custom Build) <https://lodash.com/>
