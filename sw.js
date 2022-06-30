@@ -1,6 +1,13 @@
 importScripts(
     "https://cdn.jsdelivr.net/npm/comlink@4.3.1/dist/umd/comlink.min.js",
 );
+importScripts(
+    "https://raw.githubusercontent.com/lodash/lodash/npm-packages/lodash.isequal/index.js",
+);
+
+importScripts(
+    "https://cdn.jsdelivr.net/npm/comlink@4.3.1/dist/umd/comlink.min.js",
+);
 
 let service = {
     sort: () => {
@@ -32,6 +39,8 @@ let service = {
 
         return time;
     },
+
+    isEq: (prev, next) => isEqual(prev, next)
 };
 
 Comlink.expose(service, self);
